@@ -3,19 +3,18 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Web Development Blog / srck
-tagline: Site Tagline
+title : Web Development w/ srck
+tagline: Rails / Agile / AWS / Linux / Swift
 author :
   name : Sosuke Kimura
-  email : blog@kimura-online.com
+  email : sosuke@kimura-online.com
   github : srck
   twitter : kimura_online
-#  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -127,4 +126,9 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+
+## add srck
+auto: true
+server: true
+markdown: kramdown
